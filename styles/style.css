@@ -177,6 +177,32 @@ section{
     color: #FFFFFF;
     font-size: 1.7;
 }
+.facts-title{
+    max-width: 384px;
+}
+.facts-title p{
+    font-size: 14px;
+}
+.award-container{
+    justify-content: space-around;
+}
+.award{
+    border: 1px solid #FF900E;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 32px 25px;
+    margin-top: 70px;
+}
+.award h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.award p{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
 
 @media screen and (max-width: 576px) {
     .nav, .menu, .discuss-section{
@@ -219,5 +245,10 @@ section{
     .experience-logo h1 {
         font-size: 1.9rem;
         font-weight: 600;
+    }
+    .award-container {
+        flex-direction: column;
+        padding: 10px;
+        justify-content: flex-start;
     }
 }
